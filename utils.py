@@ -38,5 +38,5 @@ for gr, df in df.groupby('werk'):
         item['stations'].append(station)
     items.append(item)
 
-with open('./index.html', 'w') as f:
+with open('./html/index.html', 'w') as f:
     f.write(template.render({"objects": items}))
