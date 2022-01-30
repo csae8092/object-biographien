@@ -1,0 +1,101 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.310704666111874,
+                    48.23340786772205
+                ]
+            },
+            "properties": {
+                "title": "Moritz v. Fries (1777-1826)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.281178908772223,
+                    48.166587836609715
+                ]
+            },
+            "properties": {
+                "title": "Joseph Daniel Böhm (1794-1865)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.732039721861973,
+                    52.371224072416936
+                ]
+            },
+            "properties": {
+                "title": "David Bernhard Hausmann (1784-1873)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    10.529867792784975,
+                    52.26664101413798
+                ]
+            },
+            "properties": {
+                "title": "Blasius"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.366610542581704,
+                    52.508287481410036
+                ]
+            },
+            "properties": {
+                "title": "Kupferstichkabinett"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.310704666111874,
+                        48.23340786772205
+                    ],
+                    [
+                        16.281178908772223,
+                        48.166587836609715
+                    ],
+                    [
+                        9.732039721861973,
+                        52.371224072416936
+                    ],
+                    [
+                        10.529867792784975,
+                        52.26664101413798
+                    ],
+                    [
+                        13.366610542581704,
+                        52.508287481410036
+                    ]
+                ]
+            },
+            "properties": {
+                "title": "Porträt v. , Willibald Pirckheimer"
+            }
+        }
+    ]
+}

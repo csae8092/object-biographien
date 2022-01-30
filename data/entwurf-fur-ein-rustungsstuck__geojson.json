@@ -1,0 +1,67 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.321628096821701,
+                    48.8505884247672
+                ]
+            },
+            "properties": {
+                "title": "Antoine-François Andréossy (1761-1828)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3074660329814605,
+                    48.883617579043324
+                ]
+            },
+            "properties": {
+                "title": "Posonyi-Hulot (1838-1899)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.366610542581704,
+                    52.508287481410036
+                ]
+            },
+            "properties": {
+                "title": "Kupferstichkabinett"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        2.321628096821701,
+                        48.8505884247672
+                    ],
+                    [
+                        2.3074660329814605,
+                        48.883617579043324
+                    ],
+                    [
+                        13.366610542581704,
+                        52.508287481410036
+                    ]
+                ]
+            },
+            "properties": {
+                "title": "Entwurf für ein Rüstungsstück "
+            }
+        }
+    ]
+}
