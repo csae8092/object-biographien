@@ -132,7 +132,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-index.html
 html/assets/brand/bootstrap-logo-white.svg
 html/assets/brand/bootstrap-logo.svg
 html/indexhansi.html
