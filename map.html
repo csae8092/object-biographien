@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title> Porträt v. , Willibald Pirckheimer </title>
+    <title> Alle Biographien </title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/style.css" rel="stylesheet">
@@ -53,23 +53,26 @@
       
 <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="/">Start</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Porträt v. , Willibald Pirckheimer</li>
+        <li class="breadcrumb-item"><a href="index.html">Start</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Alle Biograhpien</li>
     </ol>
 </nav>
 <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Porträt v. , Willibald Pirckheimer</h1>
-        <p class="lead text-muted">Visualisierte Biographie von <strong>Porträt v. , Willibald Pirckheimer</strong> </p>
-        <!-- <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p> -->
+        <h1 class="fw-light">Alle Biograhpien</h1>
+        <p class="lead text-muted">Visualisierte Biographie von <strong>Alle Biograhpien</strong> </p>
+        <p>
+          <a href="map.html" class="btn btn-primary my-2">Alle Biographien auf einer Karte</a>
+          <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+        </p>
       </div>
     </div>
     <div id='map'></div>
     <script>
+        var dataSourceList = [
+                "data/architektonische-skizzen.geojson", "data/entwurf-fur-ein-rustungsstuck.geojson", "data/portrat-v-willibald-pirckheimer.geojson", "data/unbekannt-ein-sattel-von-mehreren-seiten.geojson"
+            ]
         var map = L.map('map').setView([52.5082874814, 13.3666105], 5);
         var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18,
@@ -85,7 +88,7 @@
                 l.bindPopup(out.join("<br />"));
             }
         };
-        var jsonTest = new L.GeoJSON.AJAX(["data/portrat-v-willibald-pirckheimer.geojson"],{onEachFeature:popUp}).addTo(map);
+        var jsonTest = new L.GeoJSON.AJAX(dataSourceList,{onEachFeature:popUp}).addTo(map);
     </script>
 </section>
 
