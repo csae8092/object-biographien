@@ -9,7 +9,7 @@ from io import BytesIO
 
 templateLoader = jinja2.FileSystemLoader(searchpath=".")
 templateEnv = jinja2.Environment(loader=templateLoader)
-template = templateEnv.get_template('./templates/base.html')
+template = templateEnv.get_template('./templates/index.html')
 
 GDRIVE_URL = "https://docs.google.com/spreadsheet/ccc?key=1G5HRtHLrYGJkXj8s72KC6Uatuhy52hjBKFJpXDgQuP8"
 
@@ -19,6 +19,7 @@ def gsheet_to_df():
     print(r.status_code)
     data = r.content
     df = pd.read_csv(BytesIO(data))
+    # df = pd.read_csv('./data_dump.csv')
     return df
 
 # df.to_csv('data_dump.csv', index=False)
@@ -27,10 +28,13 @@ def gsheet_to_df():
 def make_index_html(df):
     os.makedirs('./html', exist_ok=True)
     items = []
+    template = templateEnv.get_template('./templates/object.html')
     for gr, df in df.groupby('werk'):
-        file_name = f"{(slugify(gr))}.html"
+        file_name = f"{slugify(gr)}.html"
+        data_src = f"data/{slugify(gr)}.geojson"
         item = {
             "url": file_name,
+            "data_src": data_src, 
             "title": gr,
             "stations": []
         }
@@ -40,7 +44,9 @@ def make_index_html(df):
                 station[x] = row[x]
             item['stations'].append(station)
         items.append(item)
-
+        with open(f"./html/{file_name}", 'w') as f:
+            f.write(template.render(**item))
+    template = templateEnv.get_template('./templates/index.html')
     with open('./html/index.html', 'w') as f:
         f.write(template.render({"objects": items}))
     return items
@@ -50,7 +56,7 @@ def make_geojsons(df):
     items = []
     for gr, df in df.groupby('werk'):
         os.makedirs('./html/data', exist_ok=True)
-        file_name = f"{(slugify(gr))}__geojson.json"
+        file_name = f"{(slugify(gr))}.geojson"
         item = {
             "type": "FeatureCollection",
             "features": []
