@@ -1,7 +1,7 @@
 name: Build and publish
 
 on:
-  workflow_dispatch
+  push
 
 jobs:
   build_pages:
@@ -16,7 +16,7 @@ jobs:
     - name: build html data
       run: |
         mkdir html
-        python utils.py
+        python run.py
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
       with:
