@@ -49,6 +49,9 @@ def make_index_html(df):
     template = templateEnv.get_template('./templates/index.html')
     with open('./html/index.html', 'w') as f:
         f.write(template.render({"objects": items}))
+    template = templateEnv.get_template('./templates/map.html')
+    with open('./html/map.html', 'w') as f:
+        f.write(template.render({"objects": items}))
     return items
 
 
