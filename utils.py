@@ -14,12 +14,12 @@ template = templateEnv.get_template('./templates/index.html')
 GDRIVE_URL = "https://docs.google.com/spreadsheet/ccc?key=1G5HRtHLrYGJkXj8s72KC6Uatuhy52hjBKFJpXDgQuP8"
 
 def gsheet_to_df():
-    url = f"{GDRIVE_URL}&output=csv"
-    r = requests.get(url)
-    print(r.status_code)
-    data = r.content
-    df = pd.read_csv(BytesIO(data))
-    # df = pd.read_csv('./data_dump.csv')
+    # url = f"{GDRIVE_URL}&output=csv"
+    # r = requests.get(url)
+    # print(r.status_code)
+    # data = r.content
+    # df = pd.read_csv(BytesIO(data))
+    df = pd.read_csv('./data_dump.csv')
     return df
 
 # df.to_csv('data_dump.csv', index=False)
@@ -30,9 +30,11 @@ def make_index_html(df):
     items = []
     template = templateEnv.get_template('./templates/object.html')
     for gr, df in df.groupby('werk'):
-        file_name = f"{slugify(gr)}.html"
-        data_src = f"data/{slugify(gr)}.geojson"
+        object_id = slugify(gr)
+        file_name = f"{object_id}.html"
+        data_src = f"data/{object_id}.geojson"
         item = {
+            "object_id": object_id.replace('-', '_'),
             "url": file_name,
             "data_src": data_src, 
             "title": gr,

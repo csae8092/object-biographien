@@ -1,5 +1,5 @@
 {% extends "templates/base.html" %}
-{% block title%} Alle Biographien {% endblock %}
+{% block title%} Alle Biographien auf einer Karte {% endblock %}
 {% block scriptHeader %}
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
@@ -40,7 +40,19 @@
                 l.bindPopup(out.join("<br />"));
             }
         };
-        var jsonTest = new L.GeoJSON.AJAX(dataSourceList,{onEachFeature:popUp}).addTo(map);
+        {% for x in objects %}
+            var {{ x.object_id }} = new L.GeoJSON.AJAX(["{{x.data_src}}"],{onEachFeature:popUp});
+        {% endfor %}
+        var allObjects = new L.GeoJSON.AJAX(dataSourceList,{onEachFeature:popUp}).addTo(map);
+
+        var baseLayers = {
+            'Map': tiles
+        };
+        var overlays = {
+            "Alle Objekte": allObjects,
+            {% for x in objects %}"{{ x.title}}": {{ x.object_id }}{% if not loop.last %}, {% endif %}{% endfor %}
+        };
+        var layerControl = L.control.layers(baseLayers, overlays).addTo(map);
     </script>
 </section>
 {% endblock %}
