@@ -19,7 +19,7 @@ def gsheet_to_df():
     print(r.status_code)
     data = r.content
     df = pd.read_csv(BytesIO(data))
-    df = pd.read_csv('./data_dump.csv')
+    # df = pd.read_csv('./data_dump.csv')
     return df
 
 # df.to_csv('data_dump.csv', index=False)
