@@ -14,11 +14,11 @@ template = templateEnv.get_template('./templates/index.html')
 GDRIVE_URL = "https://docs.google.com/spreadsheet/ccc?key=1G5HRtHLrYGJkXj8s72KC6Uatuhy52hjBKFJpXDgQuP8"
 
 def gsheet_to_df():
-    # url = f"{GDRIVE_URL}&output=csv"
-    # r = requests.get(url)
-    # print(r.status_code)
-    # data = r.content
-    # df = pd.read_csv(BytesIO(data))
+    url = f"{GDRIVE_URL}&output=csv"
+    r = requests.get(url)
+    print(r.status_code)
+    data = r.content
+    df = pd.read_csv(BytesIO(data))
     df = pd.read_csv('./data_dump.csv')
     return df
 
