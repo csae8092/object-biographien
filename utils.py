@@ -28,6 +28,7 @@ def gsheet_to_df():
 def make_index_html(df):
     os.makedirs('./html', exist_ok=True)
     items = []
+    rows = []
     template = templateEnv.get_template('./templates/object.html')
     for gr, df in df.groupby('werk'):
         object_id = slugify(gr)
@@ -45,6 +46,7 @@ def make_index_html(df):
             for x in row.keys():
                 station[x] = row[x]
             item['stations'].append(station)
+            rows.append(station)
         items.append(item)
         with open(f"./html/{file_name}", 'w') as f:
             f.write(template.render(**item))
@@ -54,6 +56,9 @@ def make_index_html(df):
     template = templateEnv.get_template('./templates/map.html')
     with open('./html/map.html', 'w') as f:
         f.write(template.render({"objects": items}))
+    template = templateEnv.get_template('./templates/table.html')
+    with open('./html/table.html', 'w') as f:
+        f.write(template.render({"objects": rows}))
     return items
 
 
