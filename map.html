@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title> Alle Biographien </title>
+    <title> Alle Biographien auf einer Karte </title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/style.css" rel="stylesheet">
@@ -85,7 +85,25 @@
                 l.bindPopup(out.join("<br />"));
             }
         };
-        var jsonTest = new L.GeoJSON.AJAX(dataSourceList,{onEachFeature:popUp}).addTo(map);
+        
+            var architektonische_skizzen = new L.GeoJSON.AJAX(["data/architektonische-skizzen.geojson"],{onEachFeature:popUp});
+        
+            var entwurf_fur_ein_rustungsstuck = new L.GeoJSON.AJAX(["data/entwurf-fur-ein-rustungsstuck.geojson"],{onEachFeature:popUp});
+        
+            var portrat_v_willibald_pirckheimer = new L.GeoJSON.AJAX(["data/portrat-v-willibald-pirckheimer.geojson"],{onEachFeature:popUp});
+        
+            var unbekannt_ein_sattel_von_mehreren_seiten = new L.GeoJSON.AJAX(["data/unbekannt-ein-sattel-von-mehreren-seiten.geojson"],{onEachFeature:popUp});
+        
+        var allObjects = new L.GeoJSON.AJAX(dataSourceList,{onEachFeature:popUp}).addTo(map);
+
+        var baseLayers = {
+            'Map': tiles
+        };
+        var overlays = {
+            "Alle Objekte": allObjects,
+            "Architektonische Skizzen": architektonische_skizzen, "Entwurf für ein Rüstungsstück ": entwurf_fur_ein_rustungsstuck, "Porträt v. , Willibald Pirckheimer": portrat_v_willibald_pirckheimer, "Unbekannt, Ein Sattel von mehreren Seiten": unbekannt_ein_sattel_von_mehreren_seiten
+        };
+        var layerControl = L.control.layers(baseLayers, overlays).addTo(map);
     </script>
 </section>
 
