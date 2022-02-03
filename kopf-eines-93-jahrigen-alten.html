@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title> Alle Biographien auf einer Karte </title>
+    <title> Kopf eines 93-jährigen Alten </title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/style.css" rel="stylesheet">
@@ -54,22 +54,22 @@
 <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Start</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Alle Biograhpien</li>
+        <li class="breadcrumb-item active" aria-current="page">Kopf eines 93-jährigen Alten</li>
     </ol>
 </nav>
 <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Alle Biograhpien</h1>
-        <p class="lead text-muted">Visualisierte Biographie von <strong>Alle Biograhpien</strong> </p>
-        
+        <h1 class="fw-light">Kopf eines 93-jährigen Alten</h1>
+        <p class="lead text-muted">Visualisierte Biographie von <strong>Kopf eines 93-jährigen Alten</strong> </p>
+        <!-- <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p> -->
       </div>
     </div>
     <div id='map'></div>
     <script>
-        var dataSourceList = [
-                "data/architektonische-skizzen.geojson", "data/entwurf-fur-ein-rustungsstuck.geojson", "data/kopf-eines-93-jahrigen-alten.geojson", "data/portrat-v-willibald-pirckheimer.geojson", "data/unbekannt-ein-sattel-von-mehreren-seiten.geojson"
-            ]
         var map = L.map('map').setView([52.5082874814, 13.3666105], 5);
         var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18,
@@ -85,27 +85,7 @@
                 l.bindPopup(out.join("<br />"));
             }
         };
-        
-            var architektonische_skizzen = new L.GeoJSON.AJAX(["data/architektonische-skizzen.geojson"],{onEachFeature:popUp});
-        
-            var entwurf_fur_ein_rustungsstuck = new L.GeoJSON.AJAX(["data/entwurf-fur-ein-rustungsstuck.geojson"],{onEachFeature:popUp});
-        
-            var kopf_eines_93_jahrigen_alten = new L.GeoJSON.AJAX(["data/kopf-eines-93-jahrigen-alten.geojson"],{onEachFeature:popUp});
-        
-            var portrat_v_willibald_pirckheimer = new L.GeoJSON.AJAX(["data/portrat-v-willibald-pirckheimer.geojson"],{onEachFeature:popUp});
-        
-            var unbekannt_ein_sattel_von_mehreren_seiten = new L.GeoJSON.AJAX(["data/unbekannt-ein-sattel-von-mehreren-seiten.geojson"],{onEachFeature:popUp});
-        
-        var allObjects = new L.GeoJSON.AJAX(dataSourceList,{onEachFeature:popUp}).addTo(map);
-
-        var baseLayers = {
-            'Map': tiles
-        };
-        var overlays = {
-            "Alle Objekte": allObjects,
-            "Architektonische Skizzen": architektonische_skizzen, "Entwurf für ein Rüstungsstück ": entwurf_fur_ein_rustungsstuck, "Kopf eines 93-jährigen Alten": kopf_eines_93_jahrigen_alten, "Porträt v. , Willibald Pirckheimer": portrat_v_willibald_pirckheimer, "Unbekannt, Ein Sattel von mehreren Seiten": unbekannt_ein_sattel_von_mehreren_seiten
-        };
-        var layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+        var jsonTest = new L.GeoJSON.AJAX(["data/kopf-eines-93-jahrigen-alten.geojson"],{onEachFeature:popUp}).addTo(map);
     </script>
 </section>
 
