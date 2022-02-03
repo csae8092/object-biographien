@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title> Alle Biographien auf einer Karte </title>
+    <title> Die Drahtziehmühle </title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="static/style.css" rel="stylesheet">
@@ -54,22 +54,22 @@
 <nav style="--bs-breadcrumb-divider: '>>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Start</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Alle Biograhpien</li>
+        <li class="breadcrumb-item active" aria-current="page">Die Drahtziehmühle</li>
     </ol>
 </nav>
 <section class="py-5 text-center container">
     <div class="row py-lg-5">
       <div class="col-lg-6 col-md-8 mx-auto">
-        <h1 class="fw-light">Alle Biograhpien</h1>
-        <p class="lead text-muted">Visualisierte Biographie von <strong>Alle Biograhpien</strong> </p>
-        
+        <h1 class="fw-light">Die Drahtziehmühle</h1>
+        <p class="lead text-muted">Visualisierte Biographie von <strong>Die Drahtziehmühle</strong> </p>
+        <!-- <p>
+          <a href="#" class="btn btn-primary my-2">Main call to action</a>
+          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+        </p> -->
       </div>
     </div>
     <div id='map'></div>
     <script>
-        var dataSourceList = [
-                "data/architektonische-skizzen.geojson", "data/die-drahtziehmuhle.geojson", "data/drei-landsknechte.geojson", "data/ein-sattel-von-mehreren-seiten.geojson", "data/entwurf-fur-ein-rustungsstuck.geojson", "data/geburt-der-maria.geojson", "data/kopf-eines-93-jahrigen-alten.geojson", "data/madonna-mit-musizierenden-engeln.geojson", "data/nackter-mann-herkules-im-kampf-mit-einem-drachen.geojson", "data/portrat-v-willibald-pirckheimer.geojson", "data/reitendes-paar.geojson", "data/tal-bei-kalchreuth.geojson"
-            ]
         var map = L.map('map').setView([52.5082874814, 13.3666105], 5);
         var tiles = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 18,
@@ -85,41 +85,7 @@
                 l.bindPopup(out.join("<br />"));
             }
         };
-        
-            var architektonische_skizzen = new L.GeoJSON.AJAX(["data/architektonische-skizzen.geojson"],{onEachFeature:popUp});
-        
-            var die_drahtziehmuhle = new L.GeoJSON.AJAX(["data/die-drahtziehmuhle.geojson"],{onEachFeature:popUp});
-        
-            var drei_landsknechte = new L.GeoJSON.AJAX(["data/drei-landsknechte.geojson"],{onEachFeature:popUp});
-        
-            var ein_sattel_von_mehreren_seiten = new L.GeoJSON.AJAX(["data/ein-sattel-von-mehreren-seiten.geojson"],{onEachFeature:popUp});
-        
-            var entwurf_fur_ein_rustungsstuck = new L.GeoJSON.AJAX(["data/entwurf-fur-ein-rustungsstuck.geojson"],{onEachFeature:popUp});
-        
-            var geburt_der_maria = new L.GeoJSON.AJAX(["data/geburt-der-maria.geojson"],{onEachFeature:popUp});
-        
-            var kopf_eines_93_jahrigen_alten = new L.GeoJSON.AJAX(["data/kopf-eines-93-jahrigen-alten.geojson"],{onEachFeature:popUp});
-        
-            var madonna_mit_musizierenden_engeln = new L.GeoJSON.AJAX(["data/madonna-mit-musizierenden-engeln.geojson"],{onEachFeature:popUp});
-        
-            var nackter_mann_herkules_im_kampf_mit_einem_drachen = new L.GeoJSON.AJAX(["data/nackter-mann-herkules-im-kampf-mit-einem-drachen.geojson"],{onEachFeature:popUp});
-        
-            var portrat_v_willibald_pirckheimer = new L.GeoJSON.AJAX(["data/portrat-v-willibald-pirckheimer.geojson"],{onEachFeature:popUp});
-        
-            var reitendes_paar = new L.GeoJSON.AJAX(["data/reitendes-paar.geojson"],{onEachFeature:popUp});
-        
-            var tal_bei_kalchreuth = new L.GeoJSON.AJAX(["data/tal-bei-kalchreuth.geojson"],{onEachFeature:popUp});
-        
-        var allObjects = new L.GeoJSON.AJAX(dataSourceList,{onEachFeature:popUp}).addTo(map);
-
-        var baseLayers = {
-            'Map': tiles
-        };
-        var overlays = {
-            "Alle Objekte": allObjects,
-            "Architektonische Skizzen": architektonische_skizzen, "Die Drahtziehmühle": die_drahtziehmuhle, "Drei Landsknechte": drei_landsknechte, "Ein Sattel von mehreren Seiten": ein_sattel_von_mehreren_seiten, "Entwurf für ein Rüstungsstück ": entwurf_fur_ein_rustungsstuck, "Geburt der Maria": geburt_der_maria, "Kopf eines 93-jährigen Alten": kopf_eines_93_jahrigen_alten, "Madonna mit musizierenden Engeln": madonna_mit_musizierenden_engeln, "Nackter Mann (Herkules?) im Kampf mit einem Drachen": nackter_mann_herkules_im_kampf_mit_einem_drachen, "Porträt v. , Willibald Pirckheimer": portrat_v_willibald_pirckheimer, "Reitendes Paar": reitendes_paar, "Tal bei Kalchreuth": tal_bei_kalchreuth
-        };
-        var layerControl = L.control.layers(baseLayers, overlays).addTo(map);
+        var jsonTest = new L.GeoJSON.AJAX(["data/die-drahtziehmuhle.geojson"],{onEachFeature:popUp}).addTo(map);
     </script>
 </section>
 

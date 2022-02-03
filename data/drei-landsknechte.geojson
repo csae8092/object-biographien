@@ -6,12 +6,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.321628096821701,
-                    48.8505884247672
+                    11.075059490513294,
+                    49.45542586931791
                 ]
             },
             "properties": {
-                "title": "Antoine-François Andréossy (1761-1828)"
+                "title": "Slg. Paulus II. Praun (1548-1616)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.35135712020495,
+                    48.197827720448906
+                ]
+            },
+            "properties": {
+                "title": "Nikolaus Graf Esterhazy von Galantha (1765-1833)"
             }
         },
         {
@@ -25,6 +38,19 @@
             },
             "properties": {
                 "title": "Alexander Emil Posonyi (1838-1899)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3407990611329734,
+                    48.86575499228547
+                ]
+            },
+            "properties": {
+                "title": "Anatole Auguste Hulot (1811-1891)"
             }
         },
         {
@@ -46,12 +72,20 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        2.321628096821701,
-                        48.8505884247672
+                        11.075059490513294,
+                        49.45542586931791
+                    ],
+                    [
+                        16.35135712020495,
+                        48.197827720448906
                     ],
                     [
                         2.3074660329814605,
                         48.883617579043324
+                    ],
+                    [
+                        2.3407990611329734,
+                        48.86575499228547
                     ],
                     [
                         13.366610542581704,
@@ -60,7 +94,7 @@
                 ]
             },
             "properties": {
-                "title": "Entwurf für ein Rüstungsstück "
+                "title": "Drei Landsknechte"
             }
         }
     ]
