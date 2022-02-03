@@ -1,7 +1,8 @@
 name: Build and publish
 
-on:
+on: |
   push
+  workflow_dispatch
 
 jobs:
   build_pages:
