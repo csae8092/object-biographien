@@ -19,12 +19,51 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    0.0044208738680253075,
+                    51.55502904783388
+                ]
+            },
+            "properties": {
+                "title": "Thomas Lawrence (1769-1830)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12288844663600967,
+                    51.34321382909602
+                ]
+            },
+            "properties": {
+                "title": "Samuel Woodburn (1786-1853)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     2.3074660329814605,
                     48.883617579043324
                 ]
             },
             "properties": {
                 "title": "Alexander Emil Posonyi (1838-1899)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3407990611329734,
+                    48.86575499228547
+                ]
+            },
+            "properties": {
+                "title": "Anatole Auguste Hulot (1811-1891)"
             }
         },
         {
@@ -50,8 +89,20 @@
                         44.13138535169218
                     ],
                     [
+                        0.0044208738680253075,
+                        51.55502904783388
+                    ],
+                    [
+                        -0.12288844663600967,
+                        51.34321382909602
+                    ],
+                    [
                         2.3074660329814605,
                         48.883617579043324
+                    ],
+                    [
+                        2.3407990611329734,
+                        48.86575499228547
                     ],
                     [
                         13.366610542581704,
@@ -60,7 +111,7 @@
                 ]
             },
             "properties": {
-                "title": "Entwurf für ein Rüstungsstück "
+                "title": "Kopf eines emporblickenden Apostels"
             }
         }
     ]

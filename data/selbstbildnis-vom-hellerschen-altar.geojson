@@ -6,12 +6,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    1.3551053874373193,
-                    44.13138535169218
+                    2.3074660329814605,
+                    48.883617579043324
                 ]
             },
             "properties": {
-                "title": "Antoine-François Andréossy (1761-1828)"
+                "title": "Alexander Emil Posonyi (1838-1899)"
             }
         },
         {
@@ -19,12 +19,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.3074660329814605,
-                    48.883617579043324
+                    2.3407990611329734,
+                    48.86575499228547
                 ]
             },
             "properties": {
-                "title": "Alexander Emil Posonyi (1838-1899)"
+                "title": "Anatole Auguste Hulot (1811-1891)"
             }
         },
         {
@@ -46,12 +46,12 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        1.3551053874373193,
-                        44.13138535169218
-                    ],
-                    [
                         2.3074660329814605,
                         48.883617579043324
+                    ],
+                    [
+                        2.3407990611329734,
+                        48.86575499228547
                     ],
                     [
                         13.366610542581704,
@@ -60,7 +60,7 @@
                 ]
             },
             "properties": {
-                "title": "Entwurf für ein Rüstungsstück "
+                "title": "Selbstbildnis vom Hellerschen Altar"
             }
         }
     ]
