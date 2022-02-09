@@ -1,0 +1,135 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12698878826921797,
+                    51.519523433702346
+                ]
+            },
+            "properties": {
+                "title": "William Young Ottley (1771-1836)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    0.0044208738680253075,
+                    51.55502904783388
+                ]
+            },
+            "properties": {
+                "title": "Thomas Lawrence (1769-1830)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12288844663600967,
+                    51.34321382909602
+                ]
+            },
+            "properties": {
+                "title": "Samuel Woodburn (1786-1853)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3376010830907132,
+                    48.860766364352784
+                ]
+            },
+            "properties": {
+                "title": "Aimé-Charles-Horace His de la Salle (1795-1878)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3074660329814605,
+                    48.883617579043324
+                ]
+            },
+            "properties": {
+                "title": "Alexander Emil Posonyi (1838-1899)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3407990611329734,
+                    48.86575499228547
+                ]
+            },
+            "properties": {
+                "title": "Anatole Auguste Hulot (1811-1891)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.366610542581704,
+                    52.508287481410036
+                ]
+            },
+            "properties": {
+                "title": "Kupferstichkabinett"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.12698878826921797,
+                        51.519523433702346
+                    ],
+                    [
+                        0.0044208738680253075,
+                        51.55502904783388
+                    ],
+                    [
+                        -0.12288844663600967,
+                        51.34321382909602
+                    ],
+                    [
+                        2.3376010830907132,
+                        48.860766364352784
+                    ],
+                    [
+                        2.3074660329814605,
+                        48.883617579043324
+                    ],
+                    [
+                        2.3407990611329734,
+                        48.86575499228547
+                    ],
+                    [
+                        13.366610542581704,
+                        52.508287481410036
+                    ]
+                ]
+            },
+            "properties": {
+                "title": "Kalvarienberg"
+            }
+        }
+    ]
+}
