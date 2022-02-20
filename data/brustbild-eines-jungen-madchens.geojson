@@ -6,12 +6,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    16.35437293908809,
-                    48.34955844356201
+                    1.3551053874373193,
+                    44.13138535169218
                 ]
             },
             "properties": {
-                "title": "Joseph Daniel Böhm (1794-1865)"
+                "title": "Antoine-François Andréossy (1761-1828)"
             }
         },
         {
@@ -59,8 +59,8 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        16.35437293908809,
-                        48.34955844356201
+                        1.3551053874373193,
+                        44.13138535169218
                     ],
                     [
                         2.3074660329814605,
@@ -77,7 +77,7 @@
                 ]
             },
             "properties": {
-                "title": "Die Drahtziehmühle"
+                "title": "Brustbild eines jungen Mädchens"
             }
         }
     ]

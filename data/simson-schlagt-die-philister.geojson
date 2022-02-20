@@ -6,12 +6,38 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    16.35437293908809,
-                    48.34955844356201
+                    11.081068555802995,
+                    49.45661768671024
                 ]
             },
             "properties": {
-                "title": "Joseph Daniel Böhm (1794-1865)"
+                "title": "Willibald Imhoff (1519-1580)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.3551053874373193,
+                    44.13138535169218
+                ]
+            },
+            "properties": {
+                "title": "Antoine-François Andréossy (1761-1828)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    6.932015210482679,
+                    47.03658987672995
+                ]
+            },
+            "properties": {
+                "title": "Albert Alexander Graf von Pourtalès (1812 - 1861)"
             }
         },
         {
@@ -59,8 +85,16 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        16.35437293908809,
-                        48.34955844356201
+                        11.081068555802995,
+                        49.45661768671024
+                    ],
+                    [
+                        1.3551053874373193,
+                        44.13138535169218
+                    ],
+                    [
+                        6.932015210482679,
+                        47.03658987672995
                     ],
                     [
                         2.3074660329814605,
@@ -77,7 +111,7 @@
                 ]
             },
             "properties": {
-                "title": "Die Drahtziehmühle"
+                "title": "Simson schlägt die Philister"
             }
         }
     ]

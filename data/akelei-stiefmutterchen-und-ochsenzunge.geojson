@@ -6,6 +6,32 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
+                    16.31042798199582,
+                    48.36399483312239
+                ]
+            },
+            "properties": {
+                "title": "Josef Grünling (1785-1845)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.354373856990065,
+                    48.32424817938283
+                ]
+            },
+            "properties": {
+                "title": "Samuel von Festetics de Tolna (1806–1862)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
                     16.35437293908809,
                     48.34955844356201
                 ]
@@ -59,6 +85,14 @@
                 "type": "LineString",
                 "coordinates": [
                     [
+                        16.31042798199582,
+                        48.36399483312239
+                    ],
+                    [
+                        16.354373856990065,
+                        48.32424817938283
+                    ],
+                    [
                         16.35437293908809,
                         48.34955844356201
                     ],
@@ -77,7 +111,7 @@
                 ]
             },
             "properties": {
-                "title": "Die Drahtziehmühle"
+                "title": "Akelei, Stiefmütterchen und Ochsenzunge"
             }
         }
     ]
