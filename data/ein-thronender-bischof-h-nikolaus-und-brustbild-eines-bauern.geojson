@@ -6,12 +6,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    16.310704666111874,
-                    48.23340786772205
+                    2.3322347560478076,
+                    48.85842131297183
                 ]
             },
             "properties": {
-                "title": "Moritz v. Fries (1777-1826)"
+                "title": "Dominique Vivant Denon (1747-1825)"
             }
         },
         {
@@ -45,12 +45,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    2.321628096821701,
-                    48.8505884247672
+                    2.3074660329814605,
+                    48.883617579043324
                 ]
             },
             "properties": {
                 "title": "Alexander Emil Posonyi (1838-1899)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3407990611329734,
+                    48.86575499228547
+                ]
+            },
+            "properties": {
+                "title": "Anatole Auguste Hulot (1811-1891)"
             }
         },
         {
@@ -72,8 +85,8 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        16.310704666111874,
-                        48.23340786772205
+                        2.3322347560478076,
+                        48.85842131297183
                     ],
                     [
                         0.004131298446391123,
@@ -84,8 +97,12 @@
                         51.34321382909602
                     ],
                     [
-                        2.321628096821701,
-                        48.8505884247672
+                        2.3074660329814605,
+                        48.883617579043324
+                    ],
+                    [
+                        2.3407990611329734,
+                        48.86575499228547
                     ],
                     [
                         13.366610542581704,
@@ -94,7 +111,7 @@
                 ]
             },
             "properties": {
-                "title": "Kopf eines 93-jährigen Alten"
+                "title": "Ein thronender Bischof (H. Nikolaus) und Brustbild eines Bauern"
             }
         }
     ]
