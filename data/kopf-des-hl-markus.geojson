@@ -6,12 +6,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    16.376586569581455,
-                    48.1853518021181
+                    1.3551053874373193,
+                    44.13138535169218
                 ]
             },
             "properties": {
-                "title": "Tassilo Graf von Festetics (1813-1882)"
+                "title": "Antoine-François Andréossy (1761-1828)"
             }
         },
         {
@@ -19,12 +19,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    16.366521814006937,
-                    48.19115722646272
+                    0.004131298446391123,
+                    51.55047929489934
                 ]
             },
             "properties": {
-                "title": "Joseph Daniel Böhm (1794-1865)"
+                "title": "Thomas Lawrence (1769-1830)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.12288844663600967,
+                    51.34321382909602
+                ]
+            },
+            "properties": {
+                "title": "Samuel Woodburn (1786-1853)"
             }
         },
         {
@@ -72,12 +85,16 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        16.376586569581455,
-                        48.1853518021181
+                        1.3551053874373193,
+                        44.13138535169218
                     ],
                     [
-                        16.366521814006937,
-                        48.19115722646272
+                        0.004131298446391123,
+                        51.55047929489934
+                    ],
+                    [
+                        -0.12288844663600967,
+                        51.34321382909602
                     ],
                     [
                         2.3074660329814605,
@@ -94,7 +111,7 @@
                 ]
             },
             "properties": {
-                "title": "Tal bei Kalchreuth"
+                "title": "Kopf des hl. Markus"
             }
         }
     ]

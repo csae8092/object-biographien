@@ -6,32 +6,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    16.376586569581455,
-                    48.1853518021181
-                ]
-            },
-            "properties": {
-                "title": "Tassilo Graf von Festetics (1813-1882)"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    16.366521814006937,
-                    48.19115722646272
-                ]
-            },
-            "properties": {
-                "title": "Joseph Daniel Böhm (1794-1865)"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     2.3074660329814605,
                     48.883617579043324
                 ]
@@ -72,14 +46,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        16.376586569581455,
-                        48.1853518021181
-                    ],
-                    [
-                        16.366521814006937,
-                        48.19115722646272
-                    ],
-                    [
                         2.3074660329814605,
                         48.883617579043324
                     ],
@@ -94,7 +60,7 @@
                 ]
             },
             "properties": {
-                "title": "Tal bei Kalchreuth"
+                "title": "Der hl. Benedikt in der Einsamkeit"
             }
         }
     ]

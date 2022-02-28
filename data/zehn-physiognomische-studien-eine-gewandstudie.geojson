@@ -6,12 +6,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    16.376586569581455,
-                    48.1853518021181
+                    0.004131298446391123,
+                    51.55047929489934
                 ]
             },
             "properties": {
-                "title": "Tassilo Graf von Festetics (1813-1882)"
+                "title": "Thomas Lawrence (1769-1830)"
             }
         },
         {
@@ -19,12 +19,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    16.366521814006937,
-                    48.19115722646272
+                    -0.12288844663600967,
+                    51.34321382909602
                 ]
             },
             "properties": {
-                "title": "Joseph Daniel Böhm (1794-1865)"
+                "title": "Samuel Woodburn (1786-1853)"
             }
         },
         {
@@ -72,12 +72,12 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        16.376586569581455,
-                        48.1853518021181
+                        0.004131298446391123,
+                        51.55047929489934
                     ],
                     [
-                        16.366521814006937,
-                        48.19115722646272
+                        -0.12288844663600967,
+                        51.34321382909602
                     ],
                     [
                         2.3074660329814605,
@@ -94,7 +94,7 @@
                 ]
             },
             "properties": {
-                "title": "Tal bei Kalchreuth"
+                "title": "Zehn physiognomische Studien; eine Gewandstudie"
             }
         }
     ]

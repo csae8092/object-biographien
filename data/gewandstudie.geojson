@@ -6,19 +6,6 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    16.376586569581455,
-                    48.1853518021181
-                ]
-            },
-            "properties": {
-                "title": "Tassilo Graf von Festetics (1813-1882)"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
                     16.366521814006937,
                     48.19115722646272
                 ]
@@ -72,10 +59,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        16.376586569581455,
-                        48.1853518021181
-                    ],
-                    [
                         16.366521814006937,
                         48.19115722646272
                     ],
@@ -94,7 +77,7 @@
                 ]
             },
             "properties": {
-                "title": "Tal bei Kalchreuth"
+                "title": "Gewandstudie"
             }
         }
     ]
