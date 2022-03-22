@@ -1,0 +1,50 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    16.366521814006937,
+                    48.19115722646272
+                ]
+            },
+            "properties": {
+                "title": "Joseph Daniel Böhm (1794-1865)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.366610542581704,
+                    52.508287481410036
+                ]
+            },
+            "properties": {
+                "title": "Kupferstichkabinett"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        16.366521814006937,
+                        48.19115722646272
+                    ],
+                    [
+                        13.366610542581704,
+                        52.508287481410036
+                    ]
+                ]
+            },
+            "properties": {
+                "title": "Vexiernelke und Lilien"
+            }
+        }
+    ]
+}

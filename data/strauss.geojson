@@ -1,0 +1,67 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    1.3551053874373193,
+                    44.13138535169218
+                ]
+            },
+            "properties": {
+                "title": "Antoine-François Andréossy (1761-1828)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3407990611329734,
+                    48.86575499228547
+                ]
+            },
+            "properties": {
+                "title": "Anatole Auguste Hulot (1811-1891)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.366610542581704,
+                    52.508287481410036
+                ]
+            },
+            "properties": {
+                "title": "Kupferstichkabinett"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        1.3551053874373193,
+                        44.13138535169218
+                    ],
+                    [
+                        2.3407990611329734,
+                        48.86575499228547
+                    ],
+                    [
+                        13.366610542581704,
+                        52.508287481410036
+                    ]
+                ]
+            },
+            "properties": {
+                "title": "Strauß"
+            }
+        }
+    ]
+}

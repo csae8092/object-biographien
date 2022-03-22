@@ -1,0 +1,50 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -0.11230729370211111,
+                    51.50372941749484
+                ]
+            },
+            "properties": {
+                "title": "Carl von Hochschild (1785-1857)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.366610542581704,
+                    52.508287481410036
+                ]
+            },
+            "properties": {
+                "title": "Kupferstichkabinett"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -0.11230729370211111,
+                        51.50372941749484
+                    ],
+                    [
+                        13.366610542581704,
+                        52.508287481410036
+                    ]
+                ]
+            },
+            "properties": {
+                "title": "Brustbild eines jungen Mannes"
+            }
+        }
+    ]
+}
