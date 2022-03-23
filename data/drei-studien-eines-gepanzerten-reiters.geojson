@@ -1,0 +1,67 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.738738398737281,
+                    51.061787323156594
+                ]
+            },
+            "properties": {
+                "title": "Joseph Friedrich von Racknitz (1744-1818)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.36908523782542,
+                    52.52922251624709
+                ]
+            },
+            "properties": {
+                "title": "Karl Ferdinand Friedrich von Nagler (1770-1846)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    13.366610542581704,
+                    52.508287481410036
+                ]
+            },
+            "properties": {
+                "title": "Kupferstichkabinett"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        13.738738398737281,
+                        51.061787323156594
+                    ],
+                    [
+                        13.36908523782542,
+                        52.52922251624709
+                    ],
+                    [
+                        13.366610542581704,
+                        52.508287481410036
+                    ]
+                ]
+            },
+            "properties": {
+                "title": "Drei Studien eines gepanzerten Reiters"
+            }
+        }
+    ]
+}
