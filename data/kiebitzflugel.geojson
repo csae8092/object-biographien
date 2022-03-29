@@ -6,12 +6,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.284569396759782,
-                    52.570672715287024
+                    2.339608380948516,
+                    48.8708476901793
                 ]
             },
             "properties": {
-                "title": "Karl Ferdinand Friedrich von Nagler (1770-1846)"
+                "title": "Pierre Crozat (1661-1740)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    2.3432720956352107,
+                    48.85010964846068
+                ]
+            },
+            "properties": {
+                "title": "Pierre Jean Mariette (1694-1774) "
             }
         },
         {
@@ -33,8 +46,12 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        13.284569396759782,
-                        52.570672715287024
+                        2.339608380948516,
+                        48.8708476901793
+                    ],
+                    [
+                        2.3432720956352107,
+                        48.85010964846068
                     ],
                     [
                         13.366610542581704,
@@ -43,7 +60,7 @@
                 ]
             },
             "properties": {
-                "title": "Ein nach rechts springender Hund"
+                "title": "Kiebitzflügel"
             }
         }
     ]

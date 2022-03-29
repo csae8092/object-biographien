@@ -6,12 +6,25 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.284569396759782,
-                    52.570672715287024
+                    2.339608380948516,
+                    48.8708476901793
                 ]
             },
             "properties": {
-                "title": "Karl Ferdinand Friedrich von Nagler (1770-1846)"
+                "title": "Pierre Crozat (1661-1740)"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    9.992034854624501,
+                    53.54956003766275
+                ]
+            },
+            "properties": {
+                "title": "Georg Ernst Harzen (1790-1863)"
             }
         },
         {
@@ -33,8 +46,12 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        13.284569396759782,
-                        52.570672715287024
+                        2.339608380948516,
+                        48.8708476901793
+                    ],
+                    [
+                        9.992034854624501,
+                        53.54956003766275
                     ],
                     [
                         13.366610542581704,
@@ -43,7 +60,7 @@
                 ]
             },
             "properties": {
-                "title": "Ein nach rechts springender Hund"
+                "title": "Proportionsstudie: rechte Hälfte eines männlichen Aktes in konzentrischen Kreisen"
             }
         }
     ]

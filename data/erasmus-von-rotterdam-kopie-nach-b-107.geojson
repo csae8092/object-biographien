@@ -6,12 +6,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    13.284569396759782,
-                    52.570672715287024
+                    9.180471170750774,
+                    45.48551937669099
                 ]
             },
             "properties": {
-                "title": "Karl Ferdinand Friedrich von Nagler (1770-1846)"
+                "title": "Giuseppe Vallardi (1784-1863)"
             }
         },
         {
@@ -33,8 +33,8 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        13.284569396759782,
-                        52.570672715287024
+                        9.180471170750774,
+                        45.48551937669099
                     ],
                     [
                         13.366610542581704,
@@ -43,7 +43,7 @@
                 ]
             },
             "properties": {
-                "title": "Ein nach rechts springender Hund"
+                "title": "Erasmus von Rotterdam  (Kopie nach B. 107)"
             }
         }
     ]
